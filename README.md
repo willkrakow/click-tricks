@@ -28,28 +28,28 @@ You'll see a bunch of output as brew installs the package.
 ### Running `cliclick`
 Once Homebrew has done its thing, type the following into your Terminal the following (hit **Enter** after each line):
 
-`for i in {0..3600}
-do
-	cliclick -w 1000 c:100,500
-done`
+`for i in {0..3600}`  
+`do`  
+	`cliclick -w 1000 c:100,500`  
+`done`
 
 This will emulate a mouse click every second at the **(100, 500)** coordinate on your screen. If you want to get fancy, you can also do something like this:
 
-`for i in {0..1200}
-do
-	cliclick -w 3000 c:$i, $i
-done`
+`for i in {0..1200}`  
+`do`  
+	`cliclick -w 3000 c:$i, $i`  
+`done`
 
 The above script will click in a diagonal line across your screen, with 3 seconds in between each click. 
 
 You can also emulate keypresses:
 
-`for i in {0..3600}
-do
-	cliclick -w 1000 t:H
-	sleep 5
-	cliclick key:delete
-done`
+`for i in {0..3600}`  
+`do`  
+	`cliclick -w 1000 t:H`  
+	`sleep 5`  
+	`cliclick key:delete`  
+`done`
 
 The above script will wait 1 second, type an "H", wait 5 seconds, delete the H, wait 1 second, and then repeat the process.
 

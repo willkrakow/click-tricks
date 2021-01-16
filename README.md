@@ -55,7 +55,7 @@ The above script will wait 1 second, type an "H", wait 5 seconds, delete the H, 
 
 ## More info:
 
-[Homebrew](https://brew.sh/)
-[caffeinate](https://computers.tutsplus.com/tutorials/quick-tip-how-to-stop-your-mac-from-sleeping-using-the-command-line--mac-50905)
-[cliclick](https://www.bluem.net/en/projects/cliclick/)
-[Bash scripting](https://linuxize.com/post/bash-for-loop/)
+[Homebrew](https://brew.sh/)  
+[caffeinate](https://computers.tutsplus.com/tutorials/quick-tip-how-to-stop-your-mac-from-sleeping-using-the-command-line--mac-50905)  
+[cliclick](https://www.bluem.net/en/projects/cliclick/)  
+[Bash scripting](https://linuxize.com/post/bash-for-loop/)  
